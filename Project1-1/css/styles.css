@@ -52,3 +52,35 @@ padding: 0 18px;
     width: 60%;
     transform: rotate(25deg);
 }
+
+
+/* Features Section */
+
+#features p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    color: rgb(192, 185, 185);
+}
+
+.fea-header{
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.fea-icon{
+    margin-left: 5rem;
+    padding: 1rem 0;
+    color: tomato;
+}
+
+.fea-icon:hover {
+    color: rgb(241, 64, 102);
+  }
+
+.feature{
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem;
+}

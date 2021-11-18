@@ -11,9 +11,9 @@ h1{
 
 h2{
     font-family: "Montserrat-Bold", sans-serif;
-    font-size: 3rem;
+    font-size: 2.6rem;
     line-height: 1.5;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 #title{
@@ -95,13 +95,16 @@ padding: 0 18px;
 /* Testimonials */
 
 #testimonials{
-    padding: 5% 12%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
 }
 
-.testimonial-img{
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
     width: 10%;
     border-radius: 100%;
     margin: 20px;

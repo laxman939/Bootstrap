@@ -132,3 +132,17 @@ padding: 0 18px;
 .pricing-col{
    padding: 3% 2%; 
 }
+
+/* Media Query */
+
+@media (max-width : 1028px) {
+
+#title{
+    text-align: center;
+}
+
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
